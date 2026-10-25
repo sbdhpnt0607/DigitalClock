@@ -1,0 +1,5 @@
+﻿Name,Quantity,Component
+"UAU",1,"Arduino Uno R3"
+"UDISPLAY",1,"LCD 16x2"
+"R1",1,"1 kΩ Resistor"
+"S2, S3, S4",3,"Pushbutton"
