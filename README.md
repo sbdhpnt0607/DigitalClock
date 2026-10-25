@@ -7,7 +7,7 @@
 
 A **digital clock** built around an **Arduino Uno R3** and a **16×2 character LCD**, featuring a menu-driven interface with three pushbuttons. Set the hours, minutes, and seconds independently, and switch between **12-hour / 24-hour** display formats — all with non-blocking `millis()` timekeeping, so the clock never freezes while you navigate the menus.
 
-The project was designed and wired in **Tinkercad Circuits**, making it easy to simulate before building on real hardware. The circuit was improved based on a valuable suggestion that came from a **discussion with an AI assistant (Claude Codes) during debugging**.
+The project was designed and wired in **Tinkercad Circuits**, making it easy to simulate before building on real hardware.
 
 ## 📷 Circuit Preview
 
@@ -50,7 +50,7 @@ Full material list also available in [`bom.csv`](bom.csv).
 | DB5 | D4 |
 | DB6 | D3 |
 | DB7 | D2 |
-| VO (contrast) | 1 kΩ resistor (RWM divider) |
+| VO (contrast) | 1 kΩ resistor (voltage divider) |
 | R/W | GND |
 | VCC / LED+ | 5 V |
 | GND / LED- | GND |
